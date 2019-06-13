@@ -52,20 +52,21 @@ html,body{
     border-radius: 15px;
     box-shadow: 0 15px 20px 10px rgba(0,0,0,0.5);
     display: flex;
-    justify-content: space-between;
+
 }
 .face{
     padding: 7px;
 }
 .content_frame{
-    background-color: yellowgreen;
-    width: 250px;
-    height: 460px;
-    padding-top: 7px;
+    width: 240px;
+    height: 463px;
+    padding: 5px;
     border-radius: 15px;
+    /*border: 7px solid #e7cfb2;*/
+    margin-top: 7px;
 }
 .footer{
-    /*background-color: cornflowerblue;*/
+    /**/
     height: 158px;
     width: 100%;
     display: flex;
@@ -79,5 +80,25 @@ html,body{
     font-size: 10pt;
     padding-top: 69px;
 }
+.content_frame > div{
+    width: 230px;
+    border: 5px solid #e7cfb2;
+}
+.bloc1{
+    height: 133px;
+    border-radius: 15px;
+
+}
+.bloc2{
+    height: 210px;
+    border-radius: 15px;
+
+}
+.bloc3{
+    height:  84px;
+    /*margin: 5px;*/
+    margin-top: 10px;
+}
+
 
 
